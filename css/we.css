@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background: url(../img/\,l\,blgmbgklbhnhnhn.jpg) center/cover ;
+   
+    font-size: 120%;
+  }
+  nav a svg{
+    font-size: 30px !important;
+    color: grey !important;
+  }
+  #card{
+    background: rgba(0, 0, 0, 0.555);
+    color: white;
+    padding: 2em !important;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+  }
+  input{
+    border: none !important;
+    outline: none !important;
+    padding: 0.5em 1em !important;
+    border-radius: 24px !important;
+    background-color: #7c7c7c2b !important;
+    color: white !important;
+    text-align: center !important;
+   
+  }
+  .description{
+    text-transform: uppercase;
+  }
+  .city{
+    text-transform: capitalize !important;
+    color: rgb(166, 143, 240 ) !important;
+  }
+  .description,.humidty,.wind{
+    font-size: 20px;
+    text-align: center !important;
+  }
+  .description{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 0px 7px rgba(81,67,21,0.8), 
+	  -3px 0px 7px rgba(81,67,21,0.8), 
+	  0px 4px 7px rgba(81,67,21,0.8);
+  }
+  button{
+    font-size: 30px;
+    padding: 5px;
+    background: transparent ;
+    border: none;
+    outline: none;
+  }

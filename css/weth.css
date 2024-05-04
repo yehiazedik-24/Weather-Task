@@ -1,0 +1,49 @@
+/* Start Main CRUDS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+#card{
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg,#00feba ,#5b548a);
+  color: #fff;
+  margin: 100px auto 0 ;
+  border-radius: 20px ;
+  padding: 40px 35px ;
+  text-align: center;
+}
+.witicon{
+  width: 170px ;
+  margin-top: 30px;
+}
+.weather{
+  h1{
+    font-size: 80px;
+    font-weight: 500;
+  }
+  h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+  }
+}
+.detalis{
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.cols{
+  img{
+    width: 40px;
+    margin-right: 10px;
+    margin-top: -16px;
+  }
+}
+.rakm , .lor{
+  font-size: 20px;
+  margin-top: -16px;
+  flex-grow: 1; /* توسيع العناصر ليملأ المساحة */
+}
